@@ -12,7 +12,6 @@ h1{
 }
 #top{
     margin: 20px;
-    width:auto;
     height: 200px;
     background-color: pink;
     display: flex;
@@ -21,7 +20,6 @@ h1{
 }
 #middle{
     margin: 20px;
-    width:auto;
     height: 200px;
     background-color: purple;
     display: flex;
@@ -31,7 +29,6 @@ h1{
 }
 #bottom{
     margin: 20px;
-    width:auto;
     height: 200px;
     background-color: blue;
     display: flex;
