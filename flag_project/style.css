@@ -1,0 +1,27 @@
+body{
+    border: 1px solid black;
+
+}
+.width300{
+    width: 300px
+}
+
+.blue{
+    background-color: #0000dd;
+    height: 100px;
+
+
+}
+.red{
+    background-color: #dd0000;
+    height:10px;
+
+}
+.white{
+    background-color: #ffffff;
+    height: 50px;
+}
+.green{
+    background-color: #00aa00;
+    height: 100px;
+}
