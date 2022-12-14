@@ -1,0 +1,20 @@
+h1{
+    height: 10spx;
+    background-color: black;
+    color:aqua;
+}
+span{
+    color: white;
+}
+h2{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    background-color: lightskyblue;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: 300;
+}
