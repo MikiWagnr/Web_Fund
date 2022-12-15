@@ -1,7 +1,7 @@
 .rectangle{
     background-color: white;
-    /* border: 10px solid black; */
-    border-top: 10px solid black;
+    border: 10px solid black; 
+     border-top: 10px solid black;
     border-left: 10px solid black;
     border-right: 10px solid gray;
     border-bottom: 10px solid gray;
