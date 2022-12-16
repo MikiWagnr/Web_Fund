@@ -176,7 +176,8 @@ h3 {
     background-color: rgb(46, 45, 45);
     color: azure;
 }
-.notification-circle{
+
+.notification-circle {
     text-align: center;
     margin-right: 5px;
     height: 15px;
@@ -188,6 +189,7 @@ h3 {
     background-color: azure;
     border: 2px solid rgb(157, 156, 156)
 }
+
 .request-body {
     background-color: aliceblue;
     padding: 5px 20px;
@@ -198,11 +200,12 @@ h3 {
 
 .requesting-user {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 5px;
 }
-.user-request{
+
+.user-request {
     display: flex;
     align-items: center;
 }
@@ -229,7 +232,8 @@ h3 {
     background-color: rgb(46, 45, 45);
     color: azure;
 }
-.connection-count{
+
+.connection-count {
     text-align: center;
     margin-right: 5px;
     height: 15px;
@@ -243,7 +247,7 @@ h3 {
 }
 
 .my-connections-body {
-    padding-top: 5px; 
+    padding-top: 5px;
     background-color: aliceblue;
     border-left: 2px solid rgb(157, 156, 156);
     border-right: 2px solid rgb(157, 156, 156);
