@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@
 }
 
 .navbar {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -53,7 +54,7 @@ button {
 }
 
 .main {
-    width: 900px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -134,7 +135,7 @@ button {
 
 .education-title {
     padding: 20px;
-    background-color: black;
+    background-color: rgb(46, 45, 45);
     color: azure;
 }
 
@@ -142,7 +143,7 @@ button {
     border-left: 2px solid rgb(157, 156, 156);
     border-right: 2px solid rgb(157, 156, 156);
     border-bottom: 2px solid rgb(157, 156, 156);
-    padding: 20px;
+    padding: 30px;
 
 }
 
@@ -164,29 +165,46 @@ h3 {
 
 
 .request-container {
-    background-color: aliceblue;
     width: inherit;
     margin-bottom: 20px;
 }
 
 .connection-request-title {
+    display: flex;
+    align-items: center;
     padding: 20px;
-    background-color: black;
+    background-color: rgb(46, 45, 45);
     color: azure;
 }
-
+.notification-circle{
+    text-align: center;
+    margin-right: 5px;
+    height: 15px;
+    width: 14px;
+    padding: 3px;
+    color: black;
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: azure;
+    border: 2px solid rgb(157, 156, 156)
+}
 .request-body {
+    background-color: aliceblue;
+    padding: 5px 20px;
     border-left: 2px solid rgb(157, 156, 156);
     border-right: 2px solid rgb(157, 156, 156);
     border-bottom: 2px solid rgb(157, 156, 156);
-    margin-bottom: 20px;
 }
 
 .requesting-user {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
     margin-bottom: 5px;
+}
+.user-request{
+    display: flex;
+    align-items: center;
 }
 
 .accept-circle {
@@ -205,33 +223,50 @@ h3 {
 }
 
 .my-connections-title {
+    display: flex;
+    align-items: center;
     padding: 20px;
-    background-color: black;
+    background-color: rgb(46, 45, 45);
     color: azure;
+}
+.connection-count{
+    text-align: center;
+    margin-right: 5px;
+    height: 15px;
+    width: 40px;
+    padding: 1px;
+    color: black;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: azure;
+    border: 2px solid rgb(157, 156, 156)
 }
 
 .my-connections-body {
-    /* height: inherit; */
+    padding-top: 5px; 
     background-color: aliceblue;
     border-left: 2px solid rgb(157, 156, 156);
     border-right: 2px solid rgb(157, 156, 156);
     border-bottom: 2px solid rgb(157, 156, 156);
-    /* padding: 20px; */
 }
 
 .my-connections {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
+    margin-left: 20px;
 }
 
 .connection-profile-photo {
-    width: 40px;
+    width: 39px;
     margin-right: 5px;
     border-radius: 50%;
+    border: 2px solid grey
 }
 
 .view-more {
-    padding: 10px;
+    margin-top: 5px;
+    width: inherit;
+    padding: 10px 19px;
     border-top: 2px solid rgb(157, 156, 156);
 }
