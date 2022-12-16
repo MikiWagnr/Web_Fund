@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    /* border: 2px dotted red; */
+}
+
+.nav-bg {
+    background-color: black;
+    height: 100px;
+}
+
+.navbar {
+    width: 900px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navheader {
+    color: white;
+    margin: 20px;
+}
+
+.navlinks {
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+button {
+    margin: 20px;
+    color: white;
+    background-color: rgb(73, 170, 205);
+    border: none;
+    width: 90px;
+    height: 30px;
+    font-size: medium;
+    box-shadow: 4px 5px 5px 2px black;
+}
+
+.main {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+    background-color: plum;
+    padding: 20px;
+}
+
+.col-left {
+    flex: 2
+        /* padding: 20px; */
+        /* gap: 20px; */
+}
+
+.user-card-container {
+    background-color: aliceblue;
+    width: inherit;
+    margin-bottom: 20px;
+
+}
+
+.header {
+    height: 70px;
+    background-color: blueviolet;
+
+}
+
+#my-profile-pic {
+    margin-left: 15px;
+    width: 90px;
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 155px;
+}
+
+.profile-body {
+    border-left: 2px solid rgb(157, 156, 156);
+    border-right: 2px solid rgb(157, 156, 156);
+    border-bottom: 2px solid rgb(157, 156, 156);
+    padding: 20px;
+}
+
+.username {
+    margin-top: 20px;
+}
+
+.location {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.mapmark {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.settings {
+    margin-top: 20px;
+    display: flex;
+}
+
+.gearicon {
+    margin-right: 5px;
+    width: 20px;
+}
+
+.education-container {
+    background-color: aliceblue;
+    width: inherit;
+}
+
+.education-title {
+    padding: 20px;
+    background-color: blueviolet;
+    color: azure;
+}
+
+.education-body {
+    border-left: 2px solid rgb(157, 156, 156);
+    border-right: 2px solid rgb(157, 156, 156);
+    border-bottom: 2px solid rgb(157, 156, 156);
+    padding: 20px;
+
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+.education-date {
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.col-right {
+    flex: 1
+        /* padding:
+     20px; */
+}
+
+
+.request-container {
+    background-color: aliceblue;
+    width: inherit;
+    margin-bottom: 20px;
+}
+
+.connection-request-title {
+    padding: 20px;
+    background-color: blueviolet;
+    color: azure;
+}
+
+.request-body {
+    height: inherit;
+    border-left: 2px solid rgb(157, 156, 156);
+    border-right: 2px solid rgb(157, 156, 156);
+    border-bottom: 2px solid rgb(157, 156, 156);
+    /* padding: 20px; */
+}
+
+.requesting-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.accept-circle {
+    width: 30px;
+}
+
+.close-circle {
+    width: 30px;
+}
+
+.my-connections-container {
+    width: inherit;
+}
+
+.my-connections-title {
+    padding: 20px;
+    background-color: blueviolet;
+    color: azure;
+}
+
+.my-connections-body {
+    height: inherit;
+    background-color: aliceblue;
+    border-left: 2px solid rgb(157, 156, 156);
+    border-right: 2px solid rgb(157, 156, 156);
+    border-bottom: 2px solid rgb(157, 156, 156);
+    /* padding: 20px; */
+}
+
+.my-connections {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.connection-profile-photo {
+    width: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.view-more {
+    padding: 10px;
+    border-top: 2px solid rgb(157, 156, 156);
+}

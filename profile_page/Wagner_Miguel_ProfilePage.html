@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-bg">
+        <div class="navbar">
+            <h1 class="navheader">Profile</h1>
+            <ul class="navlinks">
+                <li>Home</li>
+                <li class="active">My Profile</li>
+                <li>Find Connections</li>
+            </ul>
+            <button>Sign-Out</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="col-left">
+            <div class="user-card-container">
+                <div class="header"></div>
+                <img id="my-profile-pic" src="images/selfportrait.JPG" alt="my profile pic">
+                <div class="profile-body">
+                    <h1 class="username">Miguel(Miki) Wagner </h1>
+                    <p class="location"><img class="mapmark" src="icons/map-marker.png" alt="Map marker">City</p>
+                    <p class="description">
+                        Developer| Engineer| Problem Solver<br>
+                        Master of shadows and the internet
+                    </p>
+                    <p class="settings"> <img class="gearicon" src="icons/gear.png" alt="Gear icon"> <a href="#">Edit
+                            profile</a></p>
+                </div>
+            </div>
+            <div class="education-container">
+                <h2 class="education-title">Education</h2>
+                <div class="education-body">
+                    <h3>Coding Dojo - full stack bootcamp</h3>
+                    <p class="education-date">Dec 2019 - March 2020</p>
+                    <h5>Triple black belt in Python, MERN, and C#...</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="request-container">
+                <h2 class="connection-request-title">Connection Requests</h2>
+                <div class="request-body">
+                    <div class="requesting-user">
+                        <img class="connection-profile-photo" src="images/todd-s.jpg" alt="Todd E profile photo">
+                        <p>Todd E</p>
+                        <div class="accept-close-circles">
+                            <img class="accept-circle" src="icons/accept-circle.png" alt="accept mark">
+                            <img class="close-circle" src="icons/close-circle.png" alt="close icon">
+                        </div>
+                    </div>
+                    <div class="requesting-user">
+                        <img class="connection-profile-photo" src="images/phil-s.jpg" alt="Phil K profile photo">
+                        <p>Phil K </p>
+                        <div class="accept-close-circles">
+                            <img class="accept-circle" src="icons/accept-circle.png" alt="accept mark">
+                            <img class="close-circle" src="icons/close-circle.png" alt="close icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-connections-container">
+                <h2 class="my-connections-title">My Connections</h2>
+                <div class="my-connections-body">
+                    <div class="my-connections">
+                        <img class="connection-profile-photo" src="images/adrien-s.jpg" alt="Adrien D photo">
+                        <p class="connection-name">Adrien D</p>
+                    </div>
+                    <div class="my-connections">
+                        <img class="connection-profile-photo" src="images/anne-s.jpg" alt="Anne J photo">
+                        <p class="connection-name">Anne J</p>
+                    </div>
+                    <div class="my-connections">
+                        <img class="connection-profile-photo" src="images/alayne-s.jpg" alt="Anne J photo">
+                        <p class="connection-name">Alayne T</p>
+                    </div>
+                    <div class="my-connections">
+                        <img class="connection-profile-photo" src="images/arry-s.jpg" alt="Anne J photo">
+                        <p class="connection-name">Arry Y</p>
+                    </div>
+                    <div class="view-more">
+                        <a href="#">view more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
