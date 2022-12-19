@@ -15,8 +15,8 @@
 .navbar {
     width: 1000px;
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
     background-color: black;
     height: 100px;
     display: flex;
@@ -26,14 +26,14 @@
 
 .navheader {
     color: white;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 .navlinks {
     list-style: none;
     color: white;
     display: flex;
-    justify-content: center;
+    /* justify-content: flex-start; */
     align-items: center;
     gap: 20px;
 }
@@ -43,14 +43,14 @@
 }
 
 button {
-    margin: 20px;
+    /* margin: 20px; */
     color: white;
     background-color: rgb(42, 153, 159);
     border: none;
     width: 90px;
     height: 30px;
     font-size: medium;
-    box-shadow: 4px 5px 5px 2px black;
+    /* box-shadow: 4px 5px 5px 2px black; */
 }
 
 .main {
@@ -60,7 +60,7 @@ button {
     gap: 30px;
     margin: 0 auto;
     /* background-color: plum */
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .col-left {
@@ -77,19 +77,21 @@ button {
 }
 
 .header {
-    height: 70px;
+    /* padding-top:  */
+    height: 95px;
     background-color: rgb(42, 153, 159);
 
 }
 
-#my-profile-pic {
+.my-profile-pic {
+    margin-top: 45px;
     margin-left: 15px;
     width: 90px;
-    display: flex;
+    /* display: flex; */
     border: 2px solid grey;
     border-radius: 50%;
-    position: absolute;
-    top: 135px;
+    /* position: absolute;
+    top: 135px; */
 }
 
 .profile-body {
@@ -180,12 +182,12 @@ h3 {
 .notification-circle {
     text-align: center;
     margin-right: 5px;
-    height: 15px;
+    /* height: 15px; */
     width: 14px;
-    padding: 3px;
+    /* padding: 3px; */
     color: black;
     font-size: 12px;
-    border-radius: 20px;
+    border-radius: 50%;
     background-color: azure;
     border: 2px solid rgb(157, 156, 156)
 }

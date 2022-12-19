@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 2px dotted red; */
+}
+
+.nav-bg{
+    background-color:rgb(200, 151, 199);
+    height: 100px;
+}
+.nav-content{
+    margin: 0 auto;
+    color: aliceblue;
+    background-color:rgb(200, 151, 199);
+    height: 100px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+button{
+    background-color: rgb(162, 194, 252);
+    border: none;
+    padding:10px;
+    color:white;
+}
+
+.main{
+    padding-top: 30px;
+    margin: 0 auto;
+    height: 1000px;
+    width: 900px;
+    /* background-color: aliceblue; */
+    display: flex;
+    gap: 30px;
+}
+
+.col-left{
+    flex: 2;
+}
+.col-right{
+    flex: 1;
+}
+
+.content-box{
+    width: inherit;
+    background-color: lightpink;
+    margin-bottom: 30px;
+}
+.content-header{
+    padding: 10px;
+    height: 50px;
+    background-color: lightgreen;
+}
+.content-body{
+    padding: 20px;
+    width: inherit;
+    background-color: lightgoldenrodyellow;
+}
+.userimg{
+    width: 40px;
+    border: 2px solid lightslategray;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#my-profile-pic{
+    width: 100px;
+}
+.profilename{
+    margin-top: 30px;;
+}
+.icons{
+    margin-right: 5px;
+    width: 25px;
+    border-radius: 50%;
+}
+#map-marker{
+    width: 15px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.description{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.edit-profile{
+    display: flex;
+    align-items: center;
+}
+
+/* this is the start of the other headers: education, user requests, connections */
+h2{
+    color: white;
+    padding: 20px;
+    background-color: lightgreen;
+}
+.user-reqs{
+    display: flex;
+    align-items: center;
+}
+.notification-circle{
+    text-align: center;
+    font-size: medium;
+    background-color: lightcoral;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 0px;
+    width: 18px;
+    margin-right: 10px;
+}
+.users{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.username-img{
+    display: flex;
+    align-items: center;
+}
+.accept-close-icons{
+    width: 25px;
+    border: 3px solid lightslategray;
+    border-radius: 50%;
+    margin-right: 5px;
+}
