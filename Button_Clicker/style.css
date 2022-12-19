@@ -7,7 +7,7 @@
     margin: 0 auto;
     width: 700px;
     padding: 10px 0px;
-    background-color: lightblue;
+    background-color: rgb(163, 164, 165);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,7 +26,7 @@ button{
 }
 .main{
     margin: 0 auto;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
     padding-top: 20px;
     gap: 30px;
@@ -40,7 +40,8 @@ button{
 }
 .container{
     /* height: 200px; */
-    background-color: blueviolet;
+    /* background-color: rgb(246, 244, 248); */
+    font-size: large;
     margin-bottom: 30px;
     display: flex;
     justify-content: space-around;
@@ -54,7 +55,7 @@ button{
 }
 .col-right-container{
     /* height: 200px; */
-    background-color: blueviolet;
+    /* background-color: blueviolet */
     margin-bottom: 30px;
     text-align:left;
     border: 5px solid black;
@@ -77,4 +78,7 @@ button{
     padding: 10px 20px;
     margin-top: 20px ;
     margin-left: 10px;
+}
+span{
+    font-weight: bolder;
 }

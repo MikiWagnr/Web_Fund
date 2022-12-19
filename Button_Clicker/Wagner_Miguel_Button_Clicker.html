@@ -13,7 +13,7 @@
     <div class="navbar">
         <h1>Dojonary</h1>
         <input class="searchbar" type="text" placeholder="Search...">
-        <button>Login</button>
+        <button onclick="logout(this)">Login</button>
     </div>
     <div class="main">
         <div class="col-left">
@@ -22,7 +22,7 @@
                     <h1 class="margin-separator">ninja</h1>
                     <h3 class="margin-separator">noun</h3>
                     <h5 class="margin-separator">plural: ninjas</h5>
-                    <button class="likebtn">13 likes</button>
+                    <button class="likebtn" onclick="alert('ninja was liked')">13 likes</button>
                 </div>
                 <div class="container-right">
                     <p>
@@ -39,7 +39,7 @@
                     <h1 class="margin-separator">ninja</h1>
                     <h3 class="margin-separator">noun</h3>
                     <h5 class="margin-separator">plural: ninjas</h5>
-                    <button class="likebtn">37 likes</button>
+                    <button class="likebtn" onclick="alert('ninja was liked')">37 likes</button>
                 </div>
                 <div class="container-right">
                     <p>
@@ -64,9 +64,10 @@
                     defined by 
                     <span>YOU</span>
                 </h2>
-                <button class="definitionbtn">Add Definition</button>
+                <button class="definitionbtn" onclick="hide(this)">Add Definition</button>
             </div>
         </div>
+        <script src="script.js"></script>
 </body>
 
 </html>
