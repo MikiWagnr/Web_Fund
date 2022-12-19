@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    border:1px dotted red;
+}
+.navbar{
+    margin: 0 auto;
+    width: 700px;
+    padding: 10px 0px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.searchbar{
+    color: lightgrey;
+    border: 2px solid black;
+}
+button{
+    background-color: blue;
+    color: white;
+    /* width: 50px; */
+    padding: 5px 10px;
+    border: 3px solid black;
+    box-shadow: 2px 3px 1px 0px black;
+}
+.main{
+    margin: 0 auto;
+    background-color: aliceblue;
+    display: flex;
+    padding-top: 20px;
+    gap: 30px;
+    width: 700px;
+}
+.col-left{
+    flex: 2;
+}
+.col-right{
+    flex: 1;
+}
+.container{
+    /* height: 200px; */
+    background-color: blueviolet;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border: 5px solid black;
+    padding: 20px 30px;
+}
+.margin-separator{
+    margin-bottom: 5px;
+}
+.col-right-container{
+    /* height: 200px; */
+    background-color: blueviolet;
+    margin-bottom: 30px;
+    text-align:left;
+    border: 5px solid black;
+    padding:20px
+}
+.likebtn{
+    background-color: yellow;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    width: 80px;
+    padding: 5px;
+}
+.definitionbtn{
+    background-color: green;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    width: 150px;
+    padding: 10px 20px;
+    margin-top: 20px ;
+    margin-left: 10px;
+}
