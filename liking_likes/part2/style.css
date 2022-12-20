@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    margin: 0 auto;
+    height: 100px;
+    width: 900px;
+    background-color: black;
+    color: white;
+}
+.nav-title{
+    padding: 25px;
+}
+.main{
+    /* background-color: blanchedalmond; */
+    margin: 0 auto;
+    width: 900px;
+}
+.page-title{
+    text-align: center;
+}
+.column-split{
+    display: flex;
+    gap: 20px;
+}
+.col-left{
+    flex: 1;
+}
+.col-right{
+    flex: 2
+    ;
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+}
+.myprofilename{
+    margin-top: 10px;
+}
+.container{
+    width: inherit;
+    /* background-color: aliceblue; */
+    padding: 50px 30px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.container-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightside{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+p{
+    font-size: medium;
+}
+button{
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: yellow;
+    font-size: large;
+}
+.container-bottom{
+    margin-top: 40px;
+    font-size: larger;
+}

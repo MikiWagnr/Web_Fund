@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liking-likes-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Network</h1>
+    </div>
+    <div class="main">
+        <h1 class="page-title">Your Feed</h1>
+        <div class="column-split">
+            <div class="col-left">
+                <div class="container">
+                    <img src="user-circle copy.png" alt="profile image">
+                    <div class="container-bottom">
+                        <a href="#">Add an avatar</a>
+                        <h2 class="myprofilename">James Doe</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="container">
+                    <div class="container-top">
+                        <h2>Neil M </h2>
+                        <div class="rightside">
+                            <p><span id="like-1" class="count">7</span> likes</p>
+                            <button class="likes" onclick="increaseLikes('#like-1')">like</button>
+                        </div>
+                    </div>
+                    <p class="container-bottom">
+                        I just set up this new discord bot, let me
+                        <br>
+                        know what you all think.
+                        <a href="#">link</a>
+                    </p>
+                </div>
+                <div class="container">
+                    <div class="container-top">
+                        <h2>Nichole K </h2>
+                        <div class="rightside">
+                            <p><span id="like-2" class="count">35</span> likes</p>
+                            <button class="likes" onclick="increaseLikes('#like-2')">like</button>
+                        </div>
+                    </div>
+                    <p class="container-bottom">
+                        Just finished my
+                        <a href="#">next comic</a>,
+                        check it out.
+                    </p>
+                </div>
+                <div class="container">
+                    <div class="container-top">
+                        <h2>Jim R </h2>
+                        <div class="rightside">
+                            <p><span id="like-3" class="count">9</span> likes</p>
+                            <button class="likes" onclick="increaseLikes('#like-3')">like</button>
+                        </div>
+                    </div>
+                    <p class="container-bottom">
+                        I can't stop listening to the
+                        <a href='#'>new aldum</a>.
+                        <br>
+                        Who else is liking it?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
